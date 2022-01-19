@@ -6,7 +6,7 @@
 	transition: all $time ease $delay;
 }
 
-@import "nullstyle.scss";
+@import "nullstyle";
 
 //============================ШРИФТЫ========================================================================
 @import url("https://fonts.googleapis.com/css?family=Lato:,700&display=swap");
@@ -26,10 +26,8 @@
 	background: #3c64b1;
 	letter-spacing: 0.3px;
 	color: white;
-	padding: 12px 18px;
-	a {
-		color: white;
-	}
+	padding: 0px 18px;
+	height: 48px;
 }
 .wrapper {
 	width: 100%;
@@ -56,14 +54,12 @@
 	justify-content: space-between;
 
 	&__text {
-		max-width: 540px;
+		max-width: 445px;
 	}
 
 	// .help__text-title
 
 	&__text-title {
-		max-width: 445px;
-		height: 112px;
 		font-family: "Mulish";
 		font-style: normal;
 		font-weight: bold;
@@ -71,14 +67,11 @@
 		line-height: 56px;
 		color: #373f41;
 		letter-spacing: 0.2px;
-		padding: 0px 93px 40px 0px;
 	}
 
 	// .help__text-subtitle
 
 	&__text-subtitle {
-		width: 445px;
-		height: 88px;
 		font-family: "Mulish";
 		font-style: normal;
 		font-weight: normal;
@@ -91,8 +84,6 @@
 	// .help__text-btn
 
 	&__text-btn {
-		width: 139px;
-		height: 48px;
 	}
 
 	// .help__icon

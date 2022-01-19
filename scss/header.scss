@@ -38,13 +38,6 @@
 		}
 	}
 
-	// .header__menu
-
-	&__menu {
-		height: 18px;
-		width: 467px;
-		
-	}
 
 	// .header__menu-list
 
@@ -53,14 +46,16 @@
 		justify-content: space-between;
 
 		li {
-			width: 59px;
-			height: 18px;
+			margin-right: 48px;
 			font-family: "Mulish";
 			font-style: normal;
 			font-weight: 600;
 			font-size: 14px;
 			line-height: 18px;
 			letter-spacing: 0.2px;
+			&:last-child{
+				margin: 0;
+			}
 		}
 	}
 

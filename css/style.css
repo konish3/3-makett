@@ -106,11 +106,8 @@ h6 {
   background: #3c64b1;
   letter-spacing: 0.3px;
   color: white;
-  padding: 12px 18px;
-}
-
-.buttons a {
-  color: white;
+  padding: 0px 18px;
+  height: 48px;
 }
 
 .wrapper {
@@ -173,11 +170,6 @@ h6 {
   color: #3c64b1;
 }
 
-.header__menu {
-  height: 18px;
-  width: 467px;
-}
-
 .header__menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,14 +180,17 @@ h6 {
 }
 
 .header__menu-list li {
-  width: 59px;
-  height: 18px;
+  margin-right: 48px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;
+}
+
+.header__menu-list li:last-child {
+  margin: 0;
 }
 
 .header__menu-link {
@@ -278,12 +273,10 @@ h6 {
 }
 
 .help__text {
-  max-width: 540px;
+  max-width: 445px;
 }
 
 .help__text-title {
-  max-width: 445px;
-  height: 112px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: bold;
@@ -291,12 +284,9 @@ h6 {
   line-height: 56px;
   color: #373f41;
   letter-spacing: 0.2px;
-  padding: 0px 93px 40px 0px;
 }
 
 .help__text-subtitle {
-  width: 445px;
-  height: 88px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: normal;
@@ -304,11 +294,6 @@ h6 {
   line-height: 22px;
   letter-spacing: 0.3px;
   color: #737b7d;
-}
-
-.help__text-btn {
-  width: 139px;
-  height: 48px;
 }
 
 .help__icon {
