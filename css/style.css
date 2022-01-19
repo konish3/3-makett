@@ -40,6 +40,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: 'Mulish';
 }
 
 input,
@@ -94,9 +95,9 @@ h6 {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -181,7 +182,6 @@ h6 {
 
 .header__menu-list li {
   margin-right: 48px;
-  font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -214,11 +214,11 @@ h6 {
   transition: all 0.6s ease 0s;
 }
 
-.header__menu-link:hover {
+.header__menu-link:hover, .header__menu-link.active {
   color: aquamarine;
 }
 
-.header__menu-link:hover::after {
+.header__menu-link:hover::after, .header__menu-link.active::after {
   width: 100%;
   left: 0;
 }

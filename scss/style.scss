@@ -1,12 +1,4 @@
-@mixin anim($time, $delay) {
-	-webkit-transition: all $time ease $delay;
-	-moz-transition: all $time ease $delay;
-	-ms-transition: all $time ease $delay;
-	-o-transition: all $time ease $delay;
-	transition: all $time ease $delay;
-}
-
-@import "nullstyle";
+@import "nullstyle.scss";
 
 //============================ШРИФТЫ========================================================================
 @import url("https://fonts.googleapis.com/css?family=Lato:,700&display=swap");
@@ -20,7 +12,7 @@
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 18px;
-	display: flex;
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	background: #3c64b1;
@@ -79,11 +71,6 @@
 		line-height: 22px;
 		letter-spacing: 0.3px;
 		color: #737b7d;
-	}
-
-	// .help__text-btn
-
-	&__text-btn {
 	}
 
 	// .help__icon
