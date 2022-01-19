@@ -14,7 +14,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		
 	}
 
 	// .header__logo
@@ -37,7 +36,6 @@
 		}
 	}
 
-
 	// .header__menu-list
 
 	&__menu-list {
@@ -51,10 +49,9 @@
 			font-size: 14px;
 			line-height: 18px;
 			letter-spacing: 0.2px;
-			&:last-child{
+			&:last-child {
 				margin: 0;
 			}
-			
 		}
 	}
 
@@ -66,8 +63,8 @@
 		line-height: 18px;
 		transition: all 0.6s ease 0s;
 		position: relative;
-		&::after{
-			content: '';
+		&::after {
+			content: "";
 			position: absolute;
 			left: 50%;
 			width: 0;
@@ -76,9 +73,10 @@
 			bottom: 0;
 			transition: all 0.6s ease 0s;
 		}
-		&:hover, &.active {
+		&:hover,
+		&.active {
 			color: aquamarine;
-			&::after{
+			&::after {
 				width: 100%;
 				left: 0;
 			}
