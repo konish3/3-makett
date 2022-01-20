@@ -1,4 +1,4 @@
-@import "nullstyle.scss";
+@import "nullstyle";
 
 //============================ШРИФТЫ========================================================================
 @import url("https://fonts.googleapis.com/css?family=Lato:,700&display=swap");
@@ -29,7 +29,7 @@
 	margin: 0 auto;
 	max-width: 1100px;
 }
-@import "header.scss";
+@import "header";
 
 .mainblock {
 	// .mainblock__first
@@ -44,6 +44,8 @@
 	// .help__text
 	display: flex;
 	justify-content: space-between;
+	padding-top: 164px;
+	padding-bottom: 120px;
 
 	&__text {
 		max-width: 445px;
@@ -59,6 +61,7 @@
 		line-height: 56px;
 		color: #373f41;
 		letter-spacing: 0.2px;
+		margin-bottom: 40px;
 	}
 
 	// .help__text-subtitle
@@ -71,16 +74,15 @@
 		line-height: 22px;
 		letter-spacing: 0.3px;
 		color: #737b7d;
+		margin-bottom: 56px;
 	}
 
 	// .help__icon
 
 	&__icon {
-		width: 570.32px;
-		height: 388px;
-		img {
-			width: 570.32px;
-			height: 388px;
-		}
+		max-width: 570.32px;
+		max-height: 388px;
 	}
 }
+
+@import "mainsecond";
