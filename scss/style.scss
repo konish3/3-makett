@@ -6,6 +6,11 @@
 //============================ШРИФТЫ========================================================================
 
 //============================ШРИФТЫ ПО УМОЛЧАНИЮ===========================================================
+
+.background-one{
+	background: rgba(192,192,192, 0.2);
+}
+
 .buttons {
 	font-family: "Mulish";
 	font-style: normal;
@@ -27,7 +32,7 @@
 }
 .container {
 	margin: 0 auto;
-	max-width: 1100px;
+	max-width: 1110px;
 }
 @import "header";
 
@@ -45,10 +50,10 @@
 	display: flex;
 	justify-content: space-between;
 	padding-top: 164px;
-	padding-bottom: 120px;
+	margin-bottom: 240px;
 
 	&__text {
-		max-width: 445px;
+		padding-right: 93.68px;
 	}
 
 	// .help__text-title
@@ -86,3 +91,5 @@
 }
 
 @import "mainsecond";
+
+@import "mainthird";
