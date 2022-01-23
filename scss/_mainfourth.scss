@@ -1,0 +1,42 @@
+.background-fourth {
+}
+.container {
+}
+.mainblock {
+
+		// .mainblock__fourth
+
+		&__fourth {
+		}
+}
+.help {
+
+		// .help__icon-second
+
+		&__icon-second {
+		}
+
+		// .help__items
+
+		&__items {
+			display: flex;
+			flex-wrap: wrap;
+			
+		}
+
+		// .help__items-item
+
+		&__items-item {
+			display: flex;
+		}
+
+		// .help__items-item--image
+
+		&__items-item--image {
+		}
+
+		// .help__items-item-text
+
+		&__items-item-text {
+		}
+}

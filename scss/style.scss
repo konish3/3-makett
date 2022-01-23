@@ -42,6 +42,8 @@
 	&__first {
 		display: flex;
 		justify-content: space-between;
+		padding-top: 164px;
+		margin-bottom: 240px;
 	}
 }
 
@@ -49,8 +51,6 @@
 	// .help__text
 	display: flex;
 	justify-content: space-between;
-	padding-top: 164px;
-	margin-bottom: 240px;
 
 	&__text {
 		padding-right: 93.68px;
@@ -93,3 +93,5 @@
 @import "mainsecond";
 
 @import "mainthird";
+
+@import "mainfourth";
