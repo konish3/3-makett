@@ -7,8 +7,10 @@
 
 //============================ШРИФТЫ ПО УМОЛЧАНИЮ===========================================================
 
-.background-one{
-	background: rgba(192,192,192, 0.2);
+.help-block {
+	background: rgba(192, 192, 192, 0.2);
+	padding: 164px 0px 120px 0px;
+	margin-bottom: 120px;
 }
 
 .buttons {
@@ -37,23 +39,22 @@
 @import "header";
 
 .mainblock {
-	// .mainblock__first
-
-	&__first {
-		display: flex;
-		justify-content: space-between;
-		padding-top: 164px;
-		margin-bottom: 240px;
-	}
 }
 
 .help {
 	// .help__text
 	display: flex;
-	justify-content: space-between;
+	margin: 0 -47px;
+	&--statistic {
+		margin: 0 -15px;
+	}
 
 	&__text {
-		padding-right: 93.68px;
+		flex: 0 1 50%;
+		padding: 0 47px;
+		&--statistic {
+			padding: 0 15px;
+		}
 	}
 
 	// .help__text-title
@@ -67,6 +68,12 @@
 		color: #373f41;
 		letter-spacing: 0.2px;
 		margin-bottom: 40px;
+		&--statistic {
+			font-size: 32px;
+			line-height: 40px;
+			letter-spacing: 0.1px;
+			margin-bottom: 32px;
+		}
 	}
 
 	// .help__text-subtitle
@@ -80,13 +87,20 @@
 		letter-spacing: 0.3px;
 		color: #737b7d;
 		margin-bottom: 56px;
+		&--statistic{
+			margin-bottom: 48px;
+		}
 	}
+	
 
 	// .help__icon
 
 	&__icon {
-		max-width: 570.32px;
-		max-height: 388px;
+		flex: 0 1 50%;
+		padding: 0 47px;
+		&--statistic {
+			padding: 0 15px;
+		}
 	}
 }
 

@@ -1,22 +1,9 @@
-.mainblock__third {
-	margin-bottom: 228px;
-}
-.help {
-	// .help__text-grafic
+.statistic {
+margin-bottom: calc(138px + 90px);
+	// .statistic__container
 
-	&__text-grafic {
-		margin: 45px 0px 0px 0px;
-		padding: 0px 30px 0px 0px;
+	&__container {
 	}
 }
-.grafic-title {
-	font-size: 132px;
-	line-height: 40px;
-	letter-spacing: 0.1px;
-	margin-bottom: 32px;
-}
-.margrafic {
-	margin-bottom: 48px;
-}
-.grafic-icon {
-}
+
+

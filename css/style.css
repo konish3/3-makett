@@ -89,8 +89,10 @@ h6 {
   font-size: 400;
 }
 
-.background-one {
+.help-block {
   background: rgba(192, 192, 192, 0.2);
+  padding: 164px 0px 120px 0px;
+  margin-bottom: 120px;
 }
 
 .buttons {
@@ -128,6 +130,7 @@ h6 {
 .header {
   width: 100%;
   height: 88px;
+  background: rgba(192, 192, 192, 0.2);
 }
 
 .header__body {
@@ -247,28 +250,26 @@ h6 {
   letter-spacing: 0.3px;
 }
 
-.mainblock__first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 164px;
-  margin-bottom: 240px;
-}
-
 .help {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin: 0 -47px;
+}
+
+.help--statistic {
+  margin: 0 -15px;
 }
 
 .help__text {
-  padding-right: 93.68px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  padding: 0 47px;
+}
+
+.help__text--statistic {
+  padding: 0 15px;
 }
 
 .help__text-title {
@@ -282,6 +283,13 @@ h6 {
   margin-bottom: 40px;
 }
 
+.help__text-title--statistic {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+  margin-bottom: 32px;
+}
+
 .help__text-subtitle {
   font-family: "Mulish";
   font-style: normal;
@@ -293,70 +301,54 @@ h6 {
   margin-bottom: 56px;
 }
 
+.help__text-subtitle--statistic {
+  margin-bottom: 48px;
+}
+
 .help__icon {
-  max-width: 570.32px;
-  max-height: 388px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  padding: 0 47px;
 }
 
-.background-two {
-  background: none;
+.help__icon--statistic {
+  padding: 0 15px;
 }
 
-.mainblock__second-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  font-style: normal;
+.features {
+  margin-bottom: 178px;
+}
+
+.features__title {
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0.1px;
   color: #373f41;
-  margin-bottom: 56px;
+  margin: 0 auto 56px;
+  max-width: 314px;
 }
 
-.mainblock__second-list {
-  margin-bottom: 218px;
-}
-
-.items {
+.features__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0 -15px;
 }
 
-.items__item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 350px;
-          flex: 0 1 350px;
-  /*margin: 0px 30px 40px 0px;*/
-}
-
-.items__item--icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 24px;
-}
-
-.items__item--title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.features__item {
+  padding: 0 15px;
   text-align: center;
-  font-style: normal;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  margin-bottom: 40px;
+}
+
+.features__title-item {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
@@ -365,40 +357,19 @@ h6 {
   margin-bottom: 12px;
 }
 
-.items__item--subtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  font-style: normal;
-  font-weight: normal;
+.features__icon {
+  margin-bottom: 24px;
+}
+
+.features__subtitle {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #373f41;
 }
 
-.mainblock__third {
-  margin-bottom: 228px;
-}
-
-.help__text-grafic {
-  margin: 45px 0px 0px 0px;
-  padding: 0px 30px 0px 0px;
-}
-
-.grafic-title {
-  font-size: 132px;
-  line-height: 40px;
-  letter-spacing: 0.1px;
-  margin-bottom: 32px;
-}
-
-.margrafic {
-  margin-bottom: 48px;
+.statistic {
+  margin-bottom: calc(138px + 90px);
 }
 
 .help__items {
