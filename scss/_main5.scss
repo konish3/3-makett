@@ -1,0 +1,52 @@
+.ready {
+	background: rgba(192, 192, 192, 0.3);
+
+	// .ready__container
+
+	&__container {
+
+	}
+
+	// .ready__body
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	// .ready__text
+
+	&__text {
+	}
+
+	// .ready__title
+
+	&__title {
+		font-weight: bold;
+		font-size: 32px;
+		line-height: 40px;
+		text-align: center;
+		letter-spacing: 0.1px;
+		color: #373f41;
+		margin: 64px 0px 32px;
+	}
+
+	// .ready__subtitle
+
+	&__subtitle {
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+		letter-spacing: 0.3px;
+		color: #737b7d;
+		line-height: 44px;
+		margin: 0 auto 56px;
+	}
+
+	// .ready__button
+
+	&__button {
+		
+		margin-bottom: 64px;
+	}
+}

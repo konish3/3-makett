@@ -1,0 +1,24 @@
+.footer {
+	background: #373f41;
+
+	// .footer__container
+
+	&__container {
+	}
+
+	// .footer__text
+
+	&__text {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 16px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		letter-spacing: 0.2px;
+		color: #c3cbcd;
+		padding: 24px 0px;
+	}
+}
+.container {
+}
